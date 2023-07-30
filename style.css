@@ -1,0 +1,142 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Lohit Tamil', sans-serif;
+}
+.background{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.Header{
+    background-color: #C77070;
+    color: #D0D0FC;
+    padding-top: 100px;
+}
+.name{
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    margin: 5px;
+    font-weight: 50;
+}
+.under-name{
+    font-size: 64px;
+    margin: 5px;
+    font-weight: 100;
+}
+.cloud{
+    width: 200px;
+    float: left;
+    margin-top: 200px;
+}
+.cloud-right{
+    float: right;
+    margin-top: 0;
+}
+.volcano{
+    width: 600px;
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+
+.pic-of-me{
+    height: 348px;
+    width: 348px;
+    border-radius: 50%;
+    margin-top: 200px;
+}
+.set{
+    font-size: 64px;
+    color: #D0D0FC;
+    font-weight: 100;
+    margin-top: 100px;
+}
+.a-bit-about-me{
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+.more-info{
+    font-size: 64px;
+    font-weight: 100;
+    color: #D0D0FC;
+}
+.tenor-gif-embed{
+    width: 400px;
+    height: 430px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+    gap: 30px;
+}
+.text-1{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.text-1 > h3{
+    font-weight: 250;
+}
+span{
+    font-weight: 600;
+}
+hr{
+    border: dotted #D0D0FC 6px;
+    width: 4%;
+    margin: 100px auto;
+    border-bottom: 0;
+}
+.before-footer{
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.before-footer > h2{
+    font-weight: 100;
+    color: #D0D0FC;
+    font-size: 64px;
+}
+button{
+    background: #D0D0FC;
+	color: white;
+	border-style: outset;
+	border-color: #D0D0FC;
+	height: 50px;
+	width: 200px;
+	text-shadow: none;
+    font-family: 'Lohit Tamil', sans-serif;
+}
+.footer{
+    background-color: #C77070;
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    align-items: center;
+}
+a {
+    color: #D0D0FC;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 100;
+}
